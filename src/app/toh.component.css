@@ -1,0 +1,15 @@
+nav > a {
+  background: #607D8B;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  min-width: 100px;
+  text-align: center;
+}
+
+nav > a.router-link-active {
+  text-decoration: underline;
+}
