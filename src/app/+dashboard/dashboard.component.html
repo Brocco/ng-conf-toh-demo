@@ -1,0 +1,16 @@
+<h2>
+  Top Heroes
+</h2>
+<ul class="heroes">
+  <li *ngFor="let hero of heroes"
+    (click)="gotoDetail(hero)">
+    <div class="header">
+      {{hero.name}}
+    </div>
+    <div class="body">
+      Commits
+      <br />
+      <span>{{hero.commits}}</span>
+    </div>
+  </li>
+</ul>

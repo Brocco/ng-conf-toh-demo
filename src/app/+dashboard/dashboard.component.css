@@ -1,0 +1,39 @@
+ .heroes {
+  margin: 0 0 2em 0;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.heroes li {
+  cursor: pointer;
+  position: relative;
+  left: 0;
+  background-color: #0886C3;
+  border: #0886C3 2px solid;
+  color: white;
+  margin: .5em;
+  border-radius: 4px;
+  font-size: 1.5em;
+  text-align: center;
+  min-width: 225px;
+  border-radius: 3px;
+}
+
+.header {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.body {
+  background: white;
+  height: 75px;
+  padding-top:10px;
+  color: black;
+}
+
+.body span {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #0886C3;
+}
